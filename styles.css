@@ -169,7 +169,18 @@ input[type=text], select, textarea {
   resize: vertical 
 }
 
-input[type=submit] {
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+.btn {
   background-color: lightcoral;
   color: white;
   padding: 12px 20px;
@@ -178,7 +189,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.btn:hover {
   background-color: rgb(243, 155, 155);
 }
 
