@@ -1,18 +1,19 @@
+html { height: 100% }  
+
 body {
   margin : 0px;
+  min-height: 100%;
 }
 
 .nav-wrapper {
   display: flex;  
+  justify-content: space-between;
   padding: 38px;
 }
 
 .right-side {
-  height: 45px;
-  width: 800px;
-  margin: 10px;
   display: flex;
-}
+} 
 
 .right-side a {
   align-self: flex-end;
@@ -50,11 +51,141 @@ body {
   color: black; 
 }
 
+.nav-icon-wrapper {
+  height : 23px;
+}
+
 .content-wrapper {
   background-image: url("images/home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 1090px
+  height: 1090px;
 
 }
+
+
+.content-text {
+  color: white;
+  font-size: 6em;
+  font-weight: 450;
+  font-family: sans-serif;
+  text-transform: uppercase; 
+  text-align:center;
+  vertical-align: middle;
+  padding-top:400px;
+}
+
+.content-statement {
+  background-color: lightcoral;
+  padding-bottom : 20px;
+}
+
+.content-statement h {
+  margin-left: 100px;
+  font-weight: 1000;
+  font-size: 2.5em;
+}
+
+.content-statement p {
+  margin-left: 100px;
+  font-size: 1em;
+}
+
+.officer-heading {
+  background-color: rgb(241, 241, 241);
+  vertical-align: middle;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+.officer-heading h1 {
+  font-family: sans-serif;
+  text-transform: uppercase; 
+  text-align: center;
+  color: lightcoral; 
+  line-height: 100px; 
+  font-size: 3em;
+}
+
+
+.officer-wrapper {
+  display:block;
+  margin: 3px;
+}
+
+.officer-left-side {
+  height: 400px;
+  width: 49%;
+  float:left;
+  display: table;
+}
+
+.img-center {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  
+}
+
+.officer-right-side {
+  height:400px;
+  width: 51%;
+  float:left;
+}
+
+.officer-right-side h2 {
+  color: grey;
+  margin-left: 25px;
+  font-size:2em;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+.officer-right-side p {
+  color: lightcoral;
+  margin-top: 0;
+  margin-left: 25px;
+  font-size:1.5em;
+  margin-bottom: 5px;
+}
+
+
+.img-center img {
+  width: 300px;
+  height: 300px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: lightcoral;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(243, 155, 155);
+}
+
+
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
